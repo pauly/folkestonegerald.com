@@ -1,0 +1,19 @@
+---
+title: Capel art group art exhibition
+date: 2009-02-17T00:00:00.000Z
+venue: v2164
+categories: gig
+board: 8
+layout: gig
+---
+CAPEL ART GROUP
+ART EXHIBITION
+ON
+17th FEBRUARY
+IN THE SMALL HALL
+ALONGSIDE THE FARMERS MARKET
+10 a.m. to 12.30 p.m.
+CAPEL-LE-FERNE VILLAGE HALL
+LANCASTER AVENUE
+CAPEL-LE-FERNE
+NEAR FOLKESTONE

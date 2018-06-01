@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div>
+  <h2>{{ page.title }}</h2>
+  {% if page.venue %}
+    <h5>{{ site.data.venue[page.venue].name }}</h5>
+  {% endif %}
+  {{ content }}
+  <h5>{{ page.date | date: '%Y-%m-%d' }}</h5>
+  {% if page.attended %}
+    <p>I was at this one, see more in <a href="{% link misc/gigography/index.html %}">my gigography</a>.</p>
+  {% endif %}
+</div>

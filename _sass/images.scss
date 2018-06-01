@@ -1,0 +1,68 @@
+.overlay {
+  display: block;
+  position: absolute;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 500ms;
+  text-decoration: none;
+  font-weight: normal;
+  opacity: 0.3;
+  font-size: 0.9em;
+}
+.overlay:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+/* icons and other graphics that should be post loaded */
+
+.snow:after {
+  content: ' ❄️';
+}
+.candle:after {
+  content: ' 🕯️';
+}
+.chili:after {
+  content: ' 🌶️';
+}
+.robot:after {
+  content: ' 🤖';
+}
+.cider:after,
+.pub:after,
+.inn:after,
+.beer:after,
+.realale:after {
+  content: ' 🍺';
+}
+.pi:after,
+.html:after,
+.javascript:after,
+.js:after {
+  content: ' 💻';
+}
+.tv:after {
+  content: ' 📺';
+}
+.step:after,
+.fitness:after,
+.fitbit:after {
+  content: ' 🚶';
+}
+[rel=tag]:after {
+  content: ' 🏷️';
+}
+ol [rel=tag]:after {
+  content: ' 🎧';
+}
+/* div>ul>li:before, */
+.pool:after {
+  content: ' 🎱';
+}
+.b3 #pic {
+  background: url(https://lh3.googleusercontent.com/8wxLyopmet23rD70pZcYvvJJyTrS8CGplQ98lXl_ea4t=w268-h400-no) -10px -55px;
+}
+.b3 #pic:hover {
+  background: url(https://lh3.googleusercontent.com/-EdK30frFJcQ/UimOBDjZvPI/AAAAAAABxFI/49NGqKznMG0/s288/DSC_0081-MOTION.gif) -16px 0;
+}

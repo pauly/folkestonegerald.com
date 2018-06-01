@@ -1,0 +1,18 @@
+blockquote {
+	margin: 1em;
+	font-style: italic;
+}
+blockquote:before,
+blockquote:after {
+  font-weight: bold;
+  font-size: 2em;
+  opacity: 0.5;
+}
+blockquote:before {
+  content: "\2018\2018";
+  margin: 0 5px 0 0;
+}
+blockquote:after {
+  content: "\2019\2019";
+  margin: 0 0 0 5px;
+}

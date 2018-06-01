@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="b5" lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" />
+  <title>{{ page.title | default: '' | strip_html }}</title>
+  {% comment %}<meta name="Author" content="Folkestone Gerald" />{% endcomment %}
+  {% comment %}<meta name="geo.country" content="UK" />{% endcomment %}
+  <meta name="title" content="{{ page.title | default: '' | strip_html }}" />
+  <meta name="Description" content="{{ page.description | default: page.title | default: site.data.board[page.board].description | strip_html | truncatewords: 50 }}" />
+  <meta name="Keywords" content="{{ page.tags | default: site.data.board[page.board].tags | join: ',' | strip_html }}" />
+  <style>{% include_cached head.css %}</style>
+  <link rel="canonical" href="http://www.clarkeology.com{{ page.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="Folkestone Gerald's RSS feed" href="/feed.xml" />
+  {% comment %}<link type="text/plain" rel="author" href="/humans.txt" />{% endcomment %}
+  {% comment %}<noscript id="deferred">
+    <link rel="stylesheet" href="/css/body.css" />
+  </noscript>{% endcomment %}
+</head>
+<body class="b5">
+  <h1>{{ page.title }}</h1>
+
+  {% comment %}
+    <section id="largeSkyscraper"><script data="inline" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:300px;height:600px"
+      data-ad-client="ca-pub-7656534065377065"
+      data-ad-slot="4305826552"></ins>
+    </section>
+  {% endcomment %}
+
+<form action="//www.google.co.uk" id="cse-search-box"><input type="hidden" name="cx" value="partner-pub-7656534065377065:9054476994" /><input type="hidden" name="ie" value="UTF-8" /><input title="Searching for something..?" name="q" value="{{ page.title | strip_html }}" /> <input type="submit" name="sa" value="Search" /></form>
+
+  {{ content | strip }}
+{% comment %}
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7656534065377065"
+     data-ad-slot="2859194150"
+     data-ad-format="auto"></ins>
+{% endcomment %}
+
+<div>
+  {% if page.board %}
+    <p>{{ site.data.board[page.board].description }}</p>
+  {% else %}
+    <p>{{ site.data.board[5].description }}</p>
+  {% endif %}
+</div>
+
+<section id="banner"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+  style="display:inline-block;width:728px;height:90px"
+  data-ad-client="ca-pub-7656534065377065"
+  data-ad-slot="1697770548"></ins>
+</section>
+
+{% if page.tags %}
+  <div><p>{% for tag in page.tags %}
+    <a rel="tag" class="🏷 {{ tag }}" href="{{ site.baseurl }}/wiki/{{ tag | url_encode }}">{{ tag }}</a>
+  {% endfor %}</p></div>
+{% endif %}
+
+{% include_cached sidebar.html %}
+
+{% comment %}
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7656534065377065",enable_page_level_ads: true});</script>
+{% endcomment %}
+{% comment %}
+    <script>
+      var gU=function(e){function n(o){if(t[o])return t[o].exports;var r=t[o]={i:o,l:!1,exports:{}};return e[o].call(r.exports,r,r.exports,n),r.l=!0,r.exports}var t={};return n.m=e,n.c=t,n.i=function(e){return e},n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{configurable:!1,enumerable:!0,get:o})},n.n=function(e){var t=e&&e.e?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},n.p="",n(n.s=0)}([function(e,n,t){"use strict";function o(e,n){e.appendChild(n)}function r(e,n){if(e){if("string"==typeof n)return void(e[d]=n);for(;e.lastChild;)e[u](e.lastChild);o(e,n)}}function i(e,n,t,o,i){return i=a("a"),t&&(i.id=n+t),i.href=e+t,r(i,n),o&&s.on(i,"click",o),i}function c(e,n){return(n||document).getElementsByTagName(e)}var a=document.createElement.bind(document),u="removeChild",d="innerHTML",l={pauly:10},f={};f.edit=3;var s={on:function(e,n,t){e.addEventListener(n,t,!1)},id:document.getElementById.bind(document),tag:c,get:function(e,n,t,o){o=new XMLHttpRequest,o.open(t||"GET",e,!0),o.onload=function(){n(o.responseText,o.status)},o.send()},json:function(e,n,t,r){r="_cb"+(new Date).getTime(),t=a("script"),t.src=e.replace(/(\?|$)/,"?callback="+r+"&"),o(document.body,t),window[r]=function(e){n(e),delete window[r],document.body[u](t)}},aC:o,cE:a,html:r};s.ok=s.on.bind(s,window,"load");var m,p,b,h,v,w,g=c("a");for(v=/lN=(\w+)/.exec(document.cookie),w=v?v[1]:0,m=g.length-1;m>=0;--m)if(p=g[m],b=p[d],p.href||(p.title="Search for "+b,p.href="/"+(s.id("section").content||"wiki")+"/"+b.toLowerCase().split(/\W+/).join("+"),p.className=b),h=p.href,-1===(""+h).indexOf(location.host)&&(p.className+=" external",p.rel+=" noopener"),v=/\/r\/(\d+)\/(\d+)#(\w*)/.exec(h)){var x=v[1],y=v[2],k=p.parentElement,E=v[3];(w==E||l[w]>=f.edit)&&(o(k,i("/a?m=remove&b="+x+"&key=","remove",y)),o(k,i("/a?m=edit&b="+x+"&key=","edit",y)),o(k,p))}e.exports=s}]);
+      !function(t){function e(r){if(n[r])return n[r].exports;var o=n[r]={i:r,l:!1,exports:{}};return t[r].call(o.exports,o,o.exports,e),o.l=!0,o.exports}var n={};e.m=t,e.c=n,e.i=function(t){return t},e.d=function(t,n,r){e.o(t,n)||Object.defineProperty(t,n,{configurable:!1,enumerable:!0,get:r})},e.n=function(t){var n=t&&t.t?function(){return t.default}:function(){return t};return e.d(n,"a",n),n},e.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},e.p="",e(e.s=5)}({5:function(t,e,n){"use strict";!function(t,e,n,r,o,c,i,u){function a(t,n){t=c.id("deferred"),n=i("div"),c.html(n,t.textContent),c.aC(e.head,n)}c=t.gU,i=e.createElement.bind(e),c.load=function(t){function n(){for(var t;s[0]&&"loaded"===s[0][r];)t=s.shift(),t[o]=null,f.parentNode.insertBefore(t,f)}for(var u,a,s=[],f=e.scripts[0];u=t.shift();)"async"in f?(a=i("script"),a.async=!1,a.src=u,c.aC(e.head,a)):f[r]?(a=i("script"),s.push(a),a[o]=n,a.src=u):e.write('<script src="'+u+'" defer><\/script>')},c.ok(a)}(window,document,0,"readyState","onreadystatechange")}});
+    </script>
+    <script>gU.load([
+      '//www.google.co.uk/coop/cse/brand?form=cse-search-box&amp;lang=en',
+      'http://www.clarkeology.com/js/myGA+toolTipLib+stars+images+tagCloud+names.js'
+    ])</script>
+  {% endcomment %}
+</body></html>

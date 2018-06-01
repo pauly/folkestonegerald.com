@@ -1,0 +1,365 @@
+body {
+  margin: 0;
+}
+
+html,
+p,
+h1,
+h2,
+h5 {
+  font-family: arial, verdana, sans-serif;
+  font-size: 1em;
+}
+
+/* div replaces div.🤘 - so only use div if you want it styled! */
+/* form replaces form.🤘 - should not be many forms though */
+div,
+form {
+  max-width: 100%;
+  opacity: .8;
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 1.5em;
+  margin: 1em;
+  border-radius: 15px;
+}
+
+div div {
+  margin-right: -17px;
+  margin-bottom: -1px;
+  margin-left: 1em;
+  background-image: none;
+  clear: both;
+}
+
+div p {
+  margin: 1em 0 1em 0;
+}
+
+div p,
+div img,
+div div {
+  opacity: 1;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover,
+a.external {
+  text-decoration: underline;
+}
+
+/* #→, */
+/* #→ h2, */
+#→ div {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h5 {
+  margin: 1em;
+  margin-left: 0;
+}
+
+p {
+  padding: 0;
+  margin: 1em;
+}
+
+/* @todo move this down to div h2 */
+h2 {
+  font-size: 1.1em;
+}
+
+#pic {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+h1,
+h2 {
+  border-radius: 15px 15px 0 0;
+  margin: 0;
+  padding: 0.5em;
+  padding-left: 1em;
+}
+
+div h2 {
+  margin: 0 -1em 0 -1em;
+  padding: 0.5em 0.5em 0.5em 1em;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+
+h1 a,
+h2 a,
+h5 a {
+  text-decoration: none;
+}
+
+/* .date_for_api,
+h2.title {
+  display: none;
+} */
+
+/* #→ li,
+#→ li a {
+  margin: 0.5em 0 0.5em 0;
+} */
+
+/* div>ul {
+  list-style: none;
+  text-indent: 0;
+  padding: 0;
+}
+
+div>ul>li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  background: top left no-repeat;
+} */
+
+/* .amazon {
+  background: none ! important;
+  display: inline;
+  float: left;
+  padding: 0 ! important;
+  margin: 1em;
+}
+
+.amazon a {
+  background: none ! important;
+} */
+
+/* ul#navMenuList {
+  clear: left;
+} */
+
+/* span.expandablelink {
+  background: #ffc;
+}
+
+span.expandablelink:hover {
+  background: #cfc;
+}
+
+span.expandablelink span {
+  margin-left: 1em;
+  white-space: nowrap;
+  display: none;
+}
+
+span.expandablelink span a.artist,
+span.expandablelink:hover span a.artist {
+  padding-right: 16px;
+  background: url(/img/icon/dvd.png) no-repeat right top;
+}
+
+span.expandablelink span a.google,
+span.expandablelink:hover span a.google {
+  padding-right: 16px;
+  background: url(/img/icon/find.png) no-repeat right top;
+}
+
+span.expandablelink span a.imdb,
+span.expandablelink:hover span a.imdb {
+  padding-right: 16px;
+  background: url(/img/icon/film.png) no-repeat right top;
+}
+
+span.expandablelink span a.blog,
+span.expandablelink:hover span a.blog {
+  padding-right: 16px;
+  background: url(/img/icon/page_white.png) no-repeat right top;
+} */
+
+/* .eventDescription {
+  font-size: 1.2em;
+  font-weight: bold;
+} */
+
+/* .yearLinks {
+  font-size: 1.8em;
+} */
+
+/* h5 is only really used for dates and venue links now */
+h5 {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+/* div h5 a:before {
+  content: ' :: ';
+}
+
+div h5 a:first-child:before {
+  content: '';
+} */
+
+/* .ajaxLoading {
+  background: url( /img/icon/ajaxLoading.gif ) no-repeat top left;
+  padding-left: 18px;
+} */
+
+/* a.add {
+  background: url( /img/icon/add.png ) no-repeat top right;
+  padding-right: 18px;
+} */
+
+/* .fn.up {
+  background: url( /img/icon/arrow_up.png ) no-repeat top right;
+  padding-right: 18px;
+}
+
+.fn.down {
+  background: url( /img/icon/arrow_down.png ) no-repeat top right;
+  padding-right: 18px;
+} */
+
+/* label.checked {
+  background: #97D881;
+  font-weight: bold;
+} */
+
+#→ {
+  top: 0;
+  right: 0;
+  margin: 1em;
+  padding: 0;
+  border: 0;
+}
+
+#→ div {
+  float: left;
+  margin-left: 0.5em;
+  width: 45%;
+}
+
+/* #→ iframe,
+#→ label,
+#→ object, */
+#→ img {
+  border: 0;
+}
+
+/* #→ ol, */
+#→ ul {
+  list-style: none;
+  text-indent: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden
+}
+
+/* #→ ol {
+  text-transform: capitalize;
+} */
+
+#→ li,
+#→ li a {
+  text-decoration: none;
+}
+
+h5,
+h5 a,
+h4 a, h6 a, #→ h2 a,
+#→ li,
+#→ li a,
+#→ li a:hover {
+  font-weight: normal;
+}
+
+/* input, textarea {
+  opacity: 1;
+  width: 40em;
+}
+
+form#cse-search-box input {
+  width: auto;
+} */
+
+/* div#googleBar {
+  position: absolute;
+  margin-left: 1em;
+  top: 110px;
+} */
+
+a[rel=tag] {
+  margin-right: 1em;
+}
+
+h2 {
+  background-color: transparent;
+  padding: 0;
+  margin: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+iframe {
+  padding: 0;
+  width: 450px;
+}
+
+div h6 {
+  margin-left: 1em;
+}
+
+/* @todo why is this down this far? Precedence probably */
+div div {
+  position: relative;
+}
+
+/* div.u {
+  background: #f3f9f3;
+}
+
+div div:after, div div:before {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+
+div.u:after {
+  border-width: 10px;
+  left: 22px;
+  top: -20px;
+}
+
+div.u:before {
+  border-width: 12px;
+  left: 20px;
+  top: -24px;
+} */
+
+#pic h1,
+.meta,
+.nickname,
+.role {
+  display: none;
+}
+
+/* ol.tracks {
+  transform: rotate(1deg);
+}
+
+ol.artists {
+  transform: rotate(358deg);
+} */

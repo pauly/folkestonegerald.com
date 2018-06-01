@@ -1,0 +1,13 @@
+---
+board: 8
+title: Folkestone Forum
+layout: default
+---
+
+{% for post in site.posts limit:10 %}
+  <div>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.content | markdownify }}
+    <h5>{{ post.date | date_to_string }}</h5>
+  </div>
+{% endfor %}

@@ -1,0 +1,15 @@
+---
+title: the Leas Bandstand
+date: 2007-07-21T17:09:37.000Z
+post: 10341
+board: 8
+layout: post
+venue: v4509
+permalink: /m/10341/
+---
+BETTESHANGER BRASS BAND 
+CONCERT 12 - 2 P.M 
+SUNDAY 22ND JULY 2007
+
+FREE!!
+SELECTION OF MUSIC FROM THIS AWARD WINNING BRASS BAND OF KENT.

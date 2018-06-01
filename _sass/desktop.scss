@@ -1,0 +1,69 @@
+@media (min-width: 800px) {
+  /* #ebay, */
+  #banner,
+  #→ #pic,
+  form,
+  /* div.mVenue,
+  div.mEvent,
+  div.mAmazon,
+  div.mCategory,
+  div.mPrecis,
+  div.mSubject,
+  div.mBoard,
+  .mI, */
+  /* .🔧 #→ .music, */
+  /* h6.rate, */
+  h1 {
+    display: block;
+  }
+  ins,
+  .extra,
+  #→ img {
+    display: inline;
+  }
+  #banner {
+    position: absolute;
+    top: 45px;
+    margin-left: 1em;
+  }
+  h1 {
+    background: linear-gradient(#ded, #fff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 1em;
+  }
+  /* .mI {
+    float: right;
+    margin: 1em;
+    margin-top: 0;
+    position: relative;
+  } */
+  /* #ebay {
+    margin: 10px;
+  } */
+  /* .b14 .✉️ , */
+  form {
+    margin-top: 135px;
+    font-size: .8em;
+  }
+  body>form,
+  body>div {
+    font-size: 1em;
+    margin-right: 260px;
+  }
+  #→ {
+    position: absolute;
+    width: 230px;
+  }
+  #→ li>a {
+    font-size: .8em;
+  }
+  div a {
+    margin: auto;
+  }
+  div h5 {
+    margin-right: 0;
+  }
+}

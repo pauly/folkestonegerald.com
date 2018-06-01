@@ -1,0 +1,49 @@
+{
+  "name": "folkestonegerald.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:head && npm run build:fg && npm run build:body",
+    "build:head": "sass _sass/head.scss > _includes/head.css",
+    "build:clarkeology": "sass _sass/clarkeology.scss --style compressed > _includes/clarkeology.css",
+    "build:fg": "sass _sass/fg.scss --style compressed > _includes/fg.css",
+    "build:body": "sass _sass/body.scss --style compressed > css/body.css",
+    "deploy:posts": "aws s3 sync _site/2018 s3://folkestonegerald.com/2018",
+    "deploy": "npm npm run deploy:posts",
+    "coverage": "nyc mocha && nyc report --reporter=html && nyc check-coverage",
+    "lint": "eslint scripts --quiet && echo '✔ All good!'",
+    "start": "bundle exec jekyll serve --incremental --profile --strict_front_matter --livereload",
+    "test": "npm run lint && npm run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauly/folkestonegerald.com.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pauly/folkestonegerald.com/issues"
+  },
+  "homepage": "https://github.com/pauly/folkestonegerald.com#readme",
+  "dependencies": {
+    "async": "2.6.0",
+    "clarkeology.com": "github:pauly/pauly.github.io",
+    "mkdirp": "0.5.1",
+    "mysql": "2.15.0",
+    "pauly.github.io": "github:pauly/pauly.github.io",
+    "yaml-js": "0.2.3"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "dirty-chai": "2.0.1",
+    "eslint": "4.19.1",
+    "eslint-plugin-mocha": "5.0.0",
+    "mocha": "5.2.0",
+    "nyc": "11.8.0",
+    "sass": "1.3.2",
+    "sinon": "5.0.7",
+    "sinon-chai": "3.0.0",
+    "standard": "11.0.1"
+  }
+}

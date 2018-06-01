@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div>
+  <h2>{{ page.title }}</h2>
+  {% if page.venue %}
+    <h5><a href="{{ site.data.venue[page.venue].permalink }}">{{ site.data.venue[page.venue].name }}</a></h5>
+  {% endif %}
+  {{ content }}
+  <h5>{% if page.previous %}
+    ⬅️ <a rel="prev" href="{{ page.previous.url }}" title="Previous">{{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next %}
+    {% if page.previous %}
+      ::
+    {% endif %}
+    <a rel="next" href="{{ page.next.url }}" title="Next">{{page.next.title}}</a> ➡️
+  {% endif %}</h5>
+  <h5>{{ page.date | date_to_string }}</h5>
+</div>

@@ -1,0 +1,20 @@
+---
+title: "Folkestone's HEART, Folkestone's new museum"
+date: 2015-01-17T19:29:05.000Z
+post: 23217
+board: 8
+layout: post
+venue: v3012
+permalink: /m/23217/
+---
+I don't have the facebook, but if you do why not "like" this worthy project?
+
+<blockquote>Folkestone's HEART is a 3 year project to establish an accredited local history museum, gallery and education room at the Town Hall. The vision is to create a vibrant cultural hub for the benefit of the whole community and visitors to the town. The project is led by Folkestone Town Council in partnership with Kent County Council. It is funded by The Heritage Lottery Fund with additional contributions by The Roger De Haan Charitable Trust, Queen Victoria Memorial Trust and Kent County Council.
+
+Please support this project by liking Folkestone Museum Facebook Page at the following link:
+
+<a href="https://www.facebook.com/pages/Folkestone-Museum/1718201028404296">facebook.com/pages/Folkestone-Museum/1718201028404296</a>
+
+Here is a fuller description of the project:
+
+In October 2013, Folkestone Town Council received a first round pass from the Heritage Lottery Fund (HLF) for the Folkestone HEART project. Development funding of 49,800 was awarded to help the council progress its plans to apply for the full grant (of around 1,950,000) at a later date. Folkestones HEART is a project that will make a lasting difference to local heritage and the community. By bringing the extensive and diverse collections of Folkestone together under the roof of the Town Hall the Town Council aims to establish an innovative local history museum and vibrant community space for events and exhibitions that will engage local people and offer opportunities to learn about Folkestones past. The project aims to provide access to the rich and vibrant history of the town and create a show case for our amazing heritage. The diverse collections include social and military history, rare geological and natural history items, important Roman and Anglo Saxon archaeological collections as well as an impressive art collection. Folkestones HEART aims to protect, preserve and promote these collections, and their stories for the good of the community and the town. The project will carry out essential conservation work to the Town Hall and the Folkestone Collections, including digitising the collections and creating a single web portal, allowing on-line public access to the collections for the first time. An educational programme is also planned, with volunteers given training so they can help care for the collections. The Town Hall is a focal point for the local community and is owned by the town council, it currently houses the town councils office and the Silverscreen cinema. It was built in 1860 and over the years has been used for a variety of purposes from council offices, magistrates courts and police station to retail space, and following several years of neglect was successfully purchased by the town council who undertook a programme of essential external restoration in preparation of the return of the collections. Cllr Roger West, the Town Mayor of Folkestone said: We are delighted that the Heritage Lottery Fund has given us this support. The HEART project is vitally important in realising our vision for the town hall and the collections and in reinforcing our towns identity for current and future generations. Stuart McLeod, Head of Heritage Lottery Fund South East England, said: The people of Folkestone are justly proud of the areas rich and varied history. We look forward to receiving the Town Councils detailed plans for the Town Hall restoration and the wealth of information that it will contain. Damian Collins MP for Folkestone and Hythe said: This announcement is excellent news for Folkestone and the wider area. Folkestone has a fascinating story to tell about its past and this project will be key to doing so. It has my full support as I believe that understanding our past helps us appreciate the wonderful place in which we live.</blockquote>

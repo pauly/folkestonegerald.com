@@ -1,0 +1,37 @@
+---
+layout: default
+board: 5
+---
+
+<div>
+  <h2>{{ page.title }}</h2>
+  <h5>{{ site.data.venue[page.venue].address }}
+    {% if site.data.venue[page.venue].phone %}☎️ {{ site.data.venue[page.venue].phone }}{% endif %}
+  </h5>
+  {{ content }}
+  {% if site.data.venue[page.venue].attended %}
+    <p>I been here! See more in <a href="{% link misc/gigography/index.html %}">my gigography</a>.</p>
+  {% endif %}
+</div>
+
+{% if site.data.venue[page.venue].directions %}
+  <div>
+    <p>{{ site.data.venue[page.venue].direction }}</p>
+  </div>
+{% endif %}
+
+{% if site.data.venue[page.venue].history %}
+  <div>
+    <p>{{ site.data.venue[page.venue].history }}</p>
+  </div>
+{% endif %}
+
+{% if site.data.venue[page.venue].attended %}
+  {% for post in site.posts %}{% if post.venue == page.venue %}
+    <div>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+      <h5>{{ post.date | date: '%Y-%m-%d' }}</h5>
+    </div>
+  {% endif %}{% endfor %}
+{% endif %}

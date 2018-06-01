@@ -1,0 +1,30 @@
+---
+title: Creative Players do Robin Hood
+date: 2006-01-27T13:37:20.000Z
+post: 4552
+board: 8
+layout: post
+venue: v2387
+tags: [child friendly, folkestone]
+permalink: /m/4552/
+---
+Aaargh, the capitals... copying and pasting this in, can't be bothered to retype it. His spelling missteaks too, not mine!
+
+THE CREATIVE PLAYERS ARE PROUD TO PRESENT OUR FIRST PANTOMIME AND INDEED PRODUCTION 'ROBIN HOOD'.
+ 
+THIS WILL BE AT WESTBROOK HOUSE PREPARETORY SCHOOL HALL, 52-54 SHORNECLIFFE RD FOLKESTONE.
+ 
+THIE DATES OF THE PRODUCTION ARE AS FOLLOWS:
+ 
+THURSDAY 16TH- 7.30PM
+FRIDAY.......17TH- 7.30PM
+SAT.............18TH- 2.30PM (MATINEE) AND ALSO 7.30PM
+ 
+TICKET PRICES ARE:
+ADULTS..........................................5.00
+CHILD (UNDER16) AND (CONCS).....3.50
+GROUPS OF 5 OR MORE................3.50
+ 
+TICKETS ARE AVAILABLE AT 'CHAMBERS'.......(SANDGATE RD) 'CAFE I.T'....(RENDEZVOUS ST) AND 'BARLEYCORN' (HYTHE). OR PHONE TONY KING ON 07790264108.
+ 
+PLEASE COME IF YOU CAN AND BRING YER KIDS IF APPLICABLE! IT'S IN HALF TERM WEEK.

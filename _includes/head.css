@@ -1,0 +1,611 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+}
+
+html,
+p,
+h1,
+h2,
+h5 {
+  font-family: arial, verdana, sans-serif;
+  font-size: 1em;
+}
+
+/* div replaces div.🤘 - so only use div if you want it styled! */
+/* form replaces form.🤘 - should not be many forms though */
+div,
+form {
+  max-width: 100%;
+  opacity: 0.8;
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 1.5em;
+  margin: 1em;
+  border-radius: 15px;
+}
+
+div div {
+  margin-right: -17px;
+  margin-bottom: -1px;
+  margin-left: 1em;
+  background-image: none;
+  clear: both;
+}
+
+div p {
+  margin: 1em 0 1em 0;
+}
+
+div p,
+div img,
+div div {
+  opacity: 1;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover,
+a.external {
+  text-decoration: underline;
+}
+
+/* #→, */
+/* #→ h2, */
+#→ div {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h5 {
+  margin: 1em;
+  margin-left: 0;
+}
+
+p {
+  padding: 0;
+  margin: 1em;
+}
+
+/* @todo move this down to div h2 */
+h2 {
+  font-size: 1.1em;
+}
+
+#pic {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+h1,
+h2 {
+  border-radius: 15px 15px 0 0;
+  margin: 0;
+  padding: 0.5em;
+  padding-left: 1em;
+}
+
+div h2 {
+  margin: 0 -1em 0 -1em;
+  padding: 0.5em 0.5em 0.5em 1em;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+
+h1 a,
+h2 a,
+h5 a {
+  text-decoration: none;
+}
+
+/* .date_for_api,
+h2.title {
+  display: none;
+} */
+/* #→ li,
+#→ li a {
+  margin: 0.5em 0 0.5em 0;
+} */
+/* div>ul {
+  list-style: none;
+  text-indent: 0;
+  padding: 0;
+}
+
+div>ul>li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  background: top left no-repeat;
+} */
+/* .amazon {
+  background: none ! important;
+  display: inline;
+  float: left;
+  padding: 0 ! important;
+  margin: 1em;
+}
+
+.amazon a {
+  background: none ! important;
+} */
+/* ul#navMenuList {
+  clear: left;
+} */
+/* span.expandablelink {
+  background: #ffc;
+}
+
+span.expandablelink:hover {
+  background: #cfc;
+}
+
+span.expandablelink span {
+  margin-left: 1em;
+  white-space: nowrap;
+  display: none;
+}
+
+span.expandablelink span a.artist,
+span.expandablelink:hover span a.artist {
+  padding-right: 16px;
+  background: url(/img/icon/dvd.png) no-repeat right top;
+}
+
+span.expandablelink span a.google,
+span.expandablelink:hover span a.google {
+  padding-right: 16px;
+  background: url(/img/icon/find.png) no-repeat right top;
+}
+
+span.expandablelink span a.imdb,
+span.expandablelink:hover span a.imdb {
+  padding-right: 16px;
+  background: url(/img/icon/film.png) no-repeat right top;
+}
+
+span.expandablelink span a.blog,
+span.expandablelink:hover span a.blog {
+  padding-right: 16px;
+  background: url(/img/icon/page_white.png) no-repeat right top;
+} */
+/* .eventDescription {
+  font-size: 1.2em;
+  font-weight: bold;
+} */
+/* .yearLinks {
+  font-size: 1.8em;
+} */
+/* h5 is only really used for dates and venue links now */
+h5 {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+/* div h5 a:before {
+  content: ' :: ';
+}
+
+div h5 a:first-child:before {
+  content: '';
+} */
+/* .ajaxLoading {
+  background: url( /img/icon/ajaxLoading.gif ) no-repeat top left;
+  padding-left: 18px;
+} */
+/* a.add {
+  background: url( /img/icon/add.png ) no-repeat top right;
+  padding-right: 18px;
+} */
+/* .fn.up {
+  background: url( /img/icon/arrow_up.png ) no-repeat top right;
+  padding-right: 18px;
+}
+
+.fn.down {
+  background: url( /img/icon/arrow_down.png ) no-repeat top right;
+  padding-right: 18px;
+} */
+/* label.checked {
+  background: #97D881;
+  font-weight: bold;
+} */
+#→ {
+  top: 0;
+  right: 0;
+  margin: 1em;
+  padding: 0;
+  border: 0;
+}
+
+#→ div {
+  float: left;
+  margin-left: 0.5em;
+  width: 45%;
+}
+
+/* #→ iframe,
+#→ label,
+#→ object, */
+#→ img {
+  border: 0;
+}
+
+/* #→ ol, */
+#→ ul {
+  list-style: none;
+  text-indent: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* #→ ol {
+  text-transform: capitalize;
+} */
+#→ li,
+#→ li a {
+  text-decoration: none;
+}
+
+h5,
+h5 a,
+h4 a, h6 a, #→ h2 a,
+#→ li,
+#→ li a,
+#→ li a:hover {
+  font-weight: normal;
+}
+
+/* input, textarea {
+  opacity: 1;
+  width: 40em;
+}
+
+form#cse-search-box input {
+  width: auto;
+} */
+/* div#googleBar {
+  position: absolute;
+  margin-left: 1em;
+  top: 110px;
+} */
+a[rel=tag] {
+  margin-right: 1em;
+}
+
+h2 {
+  background-color: transparent;
+  padding: 0;
+  margin: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+iframe {
+  padding: 0;
+  width: 450px;
+}
+
+div h6 {
+  margin-left: 1em;
+}
+
+/* @todo why is this down this far? Precedence probably */
+div div {
+  position: relative;
+}
+
+/* div.u {
+  background: #f3f9f3;
+}
+
+div div:after, div div:before {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+
+div.u:after {
+  border-width: 10px;
+  left: 22px;
+  top: -20px;
+}
+
+div.u:before {
+  border-width: 12px;
+  left: 20px;
+  top: -24px;
+} */
+#pic h1,
+.meta,
+.nickname,
+.role {
+  display: none;
+}
+
+/* ol.tracks {
+  transform: rotate(1deg);
+}
+
+ol.artists {
+  transform: rotate(358deg);
+} */
+body {
+  background: #f6f6f6 url(/img/fgheader.JPG) 0 0 no-repeat;
+}
+
+#→ {
+  background-color: #dbedfc;
+  color: #339;
+  margin-top: 90px;
+}
+
+#pic {
+  display: none;
+}
+
+h1 {
+  position: absolute;
+  top: 55px;
+  left: 15px;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  text-transform: uppercase;
+  background: none;
+}
+
+/* #banner {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#googleBar {
+  display: none;
+} */
+#→ ol li,
+#→ ol li a,
+#→ a,
+#→ a:visited,
+#→ li a,
+#→ li a:visited {
+  color: #339;
+}
+
+h1,
+h1 a,
+h1 a:visited {
+  color: #fff;
+}
+
+h2,
+h2 a,
+h2 a:visited {
+  color: #339;
+}
+
+div div h1 a,
+div div h1 a:visited,
+div div h2 a,
+div div h2 a:visited {
+  color: #000;
+}
+
+/* #venueIntro h2,
+#venueIntro h2 a,
+#venueIntro h2 a:visited {
+  padding: auto;
+  margin: auto;
+  background-color: #339;
+  color: #33f;
+  -moz-border-radius: none;
+  border-radius: none;
+} */
+/* input[type] {
+  background-color: #66b;
+  color: #339;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+} */
+/* .classifieds h2 {
+  background: none;
+}
+
+.classifieds h2 a,
+.classifieds h2 a:visited {
+  color: #000;
+}
+
+.classifieds ul {
+  list-style: none;
+  text-indent: 0;
+  padding: 0;
+  margin: 1em;
+}
+
+.classifieds ul li {
+  margin: 1em;
+  margin-left: 0;
+} */
+/* #venueIntro {
+  position: relative;
+} */
+/* .soldout {
+  text-decoration: blink;
+} */
+h2 {
+  background: linear-gradient(#dbedfc, #f9f9f9);
+}
+
+/* #latestComments8all {
+  list-style: none;
+  padding: 0;
+  margin: 1em;
+}
+
+#latestComments8all li {
+  display: inline;
+  margin-right: 1em;
+}
+
+#latestComments8all li a {
+  font-weight: normal;
+}
+
+#latestComments8all li a.news {
+  font-weight: bold;
+} */
+/* .latestConfirms {
+  margin: 1em;
+} */
+/* .latestConfirms p {
+  display: inline;
+  padding: 0;
+  margin: 0;
+} */
+/* .venues {
+  list-style: none;
+  padding: 0em;
+  margin: 1em;
+} */
+/* .venues li {
+  margin: 1em;
+} */
+/* .listings p {
+  display: inline;
+} */
+/* .booze {
+  padding-right: 10px;
+  background-image: url(data:text/html;charset=iso-8859-1;base64,PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9JRVRGLy9EVEQgSFRNTCAyLjAvL0VOIj4KPGh0bWw+PGhlYWQ+Cjx0aXRsZT40MDQgTm90IEZvdW5kPC90aXRsZT4KPC9oZWFkPjxib2R5Pgo8aDE+Tm90IEZvdW5kPC9oMT4KPHA+VGhlIHJlcXVlc3RlZCBVUkwgL2ltZy9pY29uL2JvdHRsZS5naWYgd2FzIG5vdCBmb3VuZCBvbiB0aGlzIHNlcnZlci48L3A+Cjxocj4KPGFkZHJlc3M+QXBhY2hlLzIuMi4yOSAoQW1hem9uKSBTZXJ2ZXIgYXQgd3d3LmNsYXJrZW9sb2d5LmNvbSBQb3J0IDgwPC9hZGRyZXNzPgo8L2JvZHk+PC9odG1sPgo=);
+}
+.accomodation {
+  background-image: url(data:text/html;charset=iso-8859-1;base64,PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9JRVRGLy9EVEQgSFRNTCAyLjAvL0VOIj4KPGh0bWw+PGhlYWQ+Cjx0aXRsZT40MDQgTm90IEZvdW5kPC90aXRsZT4KPC9oZWFkPjxib2R5Pgo8aDE+Tm90IEZvdW5kPC9oMT4KPHA+VGhlIHJlcXVlc3RlZCBVUkwgL2ltZy9pY29uL2FjY29tb2RhdGlvbi5naWYgd2FzIG5vdCBmb3VuZCBvbiB0aGlzIHNlcnZlci48L3A+Cjxocj4KPGFkZHJlc3M+QXBhY2hlLzIuMi4yOSAoQW1hem9uKSBTZXJ2ZXIgYXQgd3d3LmNsYXJrZW9sb2d5LmNvbSBQb3J0IDgwPC9hZGRyZXNzPgo8L2JvZHk+PC9odG1sPgo=);
+} */
+/* .jukebox {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIzSURBVDjLhZNbbtpQEIazgaygG4nUjXRH3QAySvvSKokEgeaBSBGFXJqAQkMxYCA03EJMzcWxCb6AAYP9d46BhqRURfqw5Zn5z5y5bAHYWufd++hbwkdkCYUYEBXCz2yv/dcDtwmOsL/yIkotHU11irY5g9QfIp5tgdmWPtsvBJbB0YOLCuaOC0kHjtIGvhQMfO9PMSYnh2A25sN8VyIrAY4ZNBvezyTvvUsNn66fIGgOXPpGD+jOwr4U4TwBetkhHLFvYy+loqounE74MfxnKupDeBn06M+k55ThukzAYbHe6TG630lBx8dLBbsXCooSUOsBqapJ15mgPwFkEtAplcEcMIjYoiYcE8gLoobPyUcSkOH/JiOS1XGYqDOHLiOcbMCkoDZlU30ChPYcgqgze54JqLfSiE6WsUvBH0jkpmEyY4d4s6RT6U0QoaKGMppHUbKYj/pHwH8ugzvtwXfaRfr+b4HiLwshXsf+zYDoo7AmkM8/DMCdd73gIKlXVRcs7dUVDhMNJBssgyGOSxai5RFyzecreEW8vh9DkIGWBTQMQgMqjxOUOhOkmjOEciPs02wEMiYSJLZeRK+NNrVGph7dDQC+C1yJQLw+x/HtFOG8hQBv4eCHiSBvkrD93Mb1QVKoXYICJCg4VnMRKc8QFsYIZhfBAd5AWrRfDtLrUZYMFznKIF6bI1JcnH4k0C7cWfgp25tHedMyZR90lLtTrwYZKgj79s9l+s86K8t336Z1/g2YLh6PHfCmogAAAABJRU5ErkJggg==);
+} */
+/* .dj {
+  background-image: url(data:text/html;charset=iso-8859-1;base64,PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9JRVRGLy9EVEQgSFRNTCAyLjAvL0VOIj4KPGh0bWw+PGhlYWQ+Cjx0aXRsZT40MDQgTm90IEZvdW5kPC90aXRsZT4KPC9oZWFkPjxib2R5Pgo8aDE+Tm90IEZvdW5kPC9oMT4KPHA+VGhlIHJlcXVlc3RlZCBVUkwgL2ltZy9pY29uL2RqLmdpZiB3YXMgbm90IGZvdW5kIG9uIHRoaXMgc2VydmVyLjwvcD4KPGhyPgo8YWRkcmVzcz5BcGFjaGUvMi4yLjI5IChBbWF6b24pIFNlcnZlciBhdCB3d3cuY2xhcmtlb2xvZ3kuY29tIFBvcnQgODA8L2FkZHJlc3M+CjwvYm9keT48L2h0bWw+Cg==);
+} */
+/* .food {
+  background-image: url(data:text/html;charset=iso-8859-1;base64,PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9JRVRGLy9EVEQgSFRNTCAyLjAvL0VOIj4KPGh0bWw+PGhlYWQ+Cjx0aXRsZT40MDQgTm90IEZvdW5kPC90aXRsZT4KPC9oZWFkPjxib2R5Pgo8aDE+Tm90IEZvdW5kPC9oMT4KPHA+VGhlIHJlcXVlc3RlZCBVUkwgL2ltZy9pY29uL2Zvb2QuZ2lmIHdhcyBub3QgZm91bmQgb24gdGhpcyBzZXJ2ZXIuPC9wPgo8aHI+CjxhZGRyZXNzPkFwYWNoZS8yLjIuMjkgKEFtYXpvbikgU2VydmVyIGF0IHd3dy5jbGFya2VvbG9neS5jb20gUG9ydCA4MDwvYWRkcmVzcz4KPC9ib2R5PjwvaHRtbD4K);
+} */
+/* .wifi {
+  background-image: url(data:text/html;charset=iso-8859-1;base64,PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9JRVRGLy9EVEQgSFRNTCAyLjAvL0VOIj4KPGh0bWw+PGhlYWQ+Cjx0aXRsZT40MDQgTm90IEZvdW5kPC90aXRsZT4KPC9oZWFkPjxib2R5Pgo8aDE+Tm90IEZvdW5kPC9oMT4KPHA+VGhlIHJlcXVlc3RlZCBVUkwgL2ltZy9pY29uL3RyYW5zbWl0LmdpZiB3YXMgbm90IGZvdW5kIG9uIHRoaXMgc2VydmVyLjwvcD4KPGhyPgo8YWRkcmVzcz5BcGFjaGUvMi4yLjI5IChBbWF6b24pIFNlcnZlciBhdCB3d3cuY2xhcmtlb2xvZ3kuY29tIFBvcnQgODA8L2FkZHJlc3M+CjwvYm9keT48L2h0bWw+Cg==);
+} */
+h1,
+td.ggparent,
+#→ #pic,
+#→ img,
+#banner,
+ins,
+.extra,
+.🔍,
+#largeSkyscraper {
+  display: none;
+}
+
+/* input,
+textarea */
+#→ {
+  width: 100%;
+}
+
+div a {
+  margin: 1em 1em 1em 0;
+}
+
+body > form,
+body > div {
+  font-size: 1.2em;
+}
+
+/* div h5 {
+  margin-right: 1.5em;
+} */
+@media (min-width: 800px) {
+  /* #ebay, */
+  #banner,
+#→ #pic,
+form,
+h1 {
+    display: block;
+  }
+
+  ins,
+.extra,
+#→ img {
+    display: inline;
+  }
+
+  #banner {
+    position: absolute;
+    top: 45px;
+    margin-left: 1em;
+  }
+
+  h1 {
+    background: linear-gradient(#ded, #fff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 1em;
+  }
+
+  /* .mI {
+    float: right;
+    margin: 1em;
+    margin-top: 0;
+    position: relative;
+  } */
+  /* #ebay {
+    margin: 10px;
+  } */
+  /* .b14 .✉️ , */
+  form {
+    margin-top: 135px;
+    font-size: 0.8em;
+  }
+
+  body > form,
+body > div {
+    font-size: 1em;
+    margin-right: 260px;
+  }
+
+  #→ {
+    position: absolute;
+    width: 230px;
+  }
+
+  #→ li > a {
+    font-size: 0.8em;
+  }
+
+  div a {
+    margin: auto;
+  }
+
+  div h5 {
+    margin-right: 0;
+  }
+}

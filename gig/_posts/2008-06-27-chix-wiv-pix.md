@@ -1,0 +1,10 @@
+---
+title: Chix Wiv Pix
+date: 2008-06-27T18:00:00.000Z
+venue: v5770
+categories: gig
+board: 8
+layout: gig
+tags: [probably the best girl blues band, this side, mississippi]
+---
+Probably The Best Girl Blues Band  This Side of The Mississippi. 8.30pm Free
